@@ -1,0 +1,40 @@
+body {
+	background-image: url('../images/background.png');
+}
+@font-face {
+    font-family: 'minecraftmedium';
+    src: url('https://duckdungeon.tk/assets/font/minecraft-webfont.woff2') format('woff2'),
+         url('https://duckdungeon.tk/assets/font/minecraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+	box-sizing: border-box;
+	font-family: 'minecraftmedium';
+	text-align: center;
+	color: black;
+}
+.btn {
+    background-color: #75a743;
+    color: black;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    border: 2px solid #468232;
+    border-radius: 8px;
+    font-family: 'minecraftmedium';
+}
+.buttons {
+    text-align: center;
+}
+.btn:hover {
+    background-color: #a8ca58;
+    color: black;
+    cursor: pointer;
+}
+#game{
+	border:1px solid #a8ca58;
+}
+.media-image {
+	height: 25px;
+	width: 25px;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 	<!-- Google verification -->
     <meta name="google-site-verification" content="cyrkJqOxfc4mhQC5jrPW8rNAo61f0FWK_jy3RcxPLNg" />
@@ -30,18 +30,45 @@
 </head>
 <body style="padding-bottom:30px">
 <div class="container-sm" style="background-image:url('assets/images/forground.png');margin-left:auto;margin-right:auto;text-align:center;margin-top:34px;padding-top:30px;padding-bottom:30px;">
-	<!-- Win text & images -->
-	<h1 id="winner"></h1>
-	<img src="assets/images/duck.gif" alt="ddr-duck"></img>
-    <img src="assets/images/bread.png" alt="ddr-bread"></img>
-	<!-- Exit text & button -->
-	<h6 id="result"></h6>
-    <button class="btn" onclick="location.href='http://duckdungeon.tk/index.html'">Exit</button>
-	<h6 style="padding-top:10px" ></h6>
-	<!-- Snake -->
-	<canvas width="400" height="400" id="game"></canvas>
-	<script src="assets/js/snake-20.js" ></script>
-	<footer>[ BETA SITE | NOT FINAL ]</footer>
+    <!-- Name & logo -->
+	<h1>Duck Dungeon Reboot (DDR)</h1>
+    <img src="assets/images/duck.gif" alt="ddr-logo"></img>
+	<h5>This is the hub for the BETA site of DDR. You can select what site you want to see/test.</h5>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h5>Main page</h5>
+				<img src="home/images/index.png" height="135" width="240"></img>
+				<h6></h6>
+				<button class="btn" onclick="location.href='index.html'">See Main page</button>
+			</div>
+			<div class="col">
+				<h5>404 page</h5>
+				<img src="home/images/404.png" height="135" width="240"></img>
+				<h6></h6>
+				<button class="btn" onclick="location.href='404.html'">See 404 page</button>
+			</div>
+			<div class="col">
+				<h5>Winner page</h5>
+				<img src="home/images/winner.png" height="135" width="240"></img>
+				<h6></h6>
+				<button class="btn" onclick="location.href='bread.html'">See Winner page</button>
+			</div>
+		</div>
+	</div>
+	<h2 style="padding-top:10px;" data-bs-toggle="collapse" href="#collapseExample" role="button">< Change Log ></h2>
+    <div class="collapse" id="collapseExample">
+		<h3>Home page:</h3>
+		<h6>Added more icons (for iphone) and made the code more readable.</h6>
+		<h6>Made it so the catagorys (controls, credit) are now collapse stuff.</h6>
+		<h6>Added Version catagory, that choses all the versions of DDR.</h6>
+		<h3>404 page:</h3>
+		<h6>If you win it will change the text.</h6>
+		<h6>If you lose it will change the text, and if you lose again it will change the text.</h6>
+		<h3>Winner page:</h3>
+		<h6>If you already win it will change the text.</h6>
+	</div>
+	<footer style="padding-top:10px;">[ BETA SITE | NOT FINAL ]</footer>
 </div>
 </body>
 </html>
