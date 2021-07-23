@@ -3,31 +3,38 @@ var context = canvas.getContext('2d');
 var grid = 16;
 var count = 0;
 
-if (localStorage.ddrwinagain === "1") {
-	var snake = {
-	x: 160,
-	y: 160,
-	dx: grid,
-	dy: 0,
-	cells: [],
-	maxCells: 4
-	};
-	document.getElementById("winner").innerHTML = "You win again! You got the bread again!";
-	document.getElementById("result").innerHTML = "You can continue to play again or exit.";
+if (localStorage.ddrwinner) {
+	if (localStorage.ddrwinner === "2") {
+		document.getElementById("winner").innerHTML = "You win again! You got the bread again!";
+		document.getElementById("result").innerHTML = "You can continue to play again or exit.";
+	} else {
+		document.getElementById("winner").innerHTML = "You win! You got the bread!";
+		document.getElementById("result").innerHTML = "Now you can continue to play or exit.";
+	}
 } else {
-	var snake = {
-	x: 160,
-	y: 160,
-	dx: grid,
-	dy: 0,
-	cells: [],
-	maxCells: 20
-	};
-	document.getElementById("winner").innerHTML = "You win! You got the bread!";
-	document.getElementById("result").innerHTML = "Now you can continue to play or exit.";
+	document.location.href = 'http://duckdungeon.tk/index.html';
 }
 
-localStorage.ddrwinagain = "1";
+if (localStorage.ddrnospeedrun === "1") {
+	var snake = {
+		x: 160,
+		y: 160,
+		dx: grid,
+		dy: 0,
+		cells: [],
+		maxCells: 4
+	};	
+} else {
+	var snake = {
+		x: 160,
+		y: 160,
+		dx: grid,
+		dy: 0,
+		cells: [],
+		maxCells: 20
+	};
+	localStorage.ddrnospeedrun = 1;
+}
 
 var apple = {
   x: 320,

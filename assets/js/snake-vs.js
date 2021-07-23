@@ -19,6 +19,8 @@ if (localStorage.ddrwinner === "1") {
 	document.getElementById("textdoc").innerHTML = "Play game to get bread back or quit!";
 }
 
+sessionStorage.ddrloseagain = 1;
+
 var apple = {
   x: 320,
   y: 320
@@ -73,15 +75,27 @@ function loop() {
         apple.y = getRandomInt(0, 25) * grid;
 		document.getElementById("win").innerHTML = "You lost, the Goose got your bread!";
 		document.getElementById("textdoc").innerHTML = "You lost, try again or quit!";
-		if (sessionStorage.ddrloseagain === "1") {
+		if (sessionStorage.ddrloseagain < 93) {
 			document.getElementById("win").innerHTML = "You lost again, the Goose got your bread again!";
 			document.getElementById("textdoc").innerHTML = "You lost again, try again or quit!";
+		} else {
+			document.getElementById("win").innerHTML = "You unlocked a secret!";
+			document.getElementById("textdoc").innerHTML = "Now it's time for a secret seconds!";
+			document.location.href = 'http://duckdungeon.tk/home/images/beta.html';
 		}
-		sessionStorage.ddrloseagain = "1";
+		if (sessionStorage.ddrloseagain) {
+			sessionStorage.ddrloseagain = Number(sessionStorage.ddrloseagain) + 1;
+		} else {
+			sessionStorage.ddrloseagain = 1;
+		}
       }
     }
 	if(snake.maxCells === 20) {
-		localStorage.ddrwinner = "1";
+		if (localStorage.ddrwinner) {
+			localStorage.ddrwinner = 2;
+		} else {
+			localStorage.ddrwinner = 1;
+		}
 		document.location.href = 'http://duckdungeon.tk/bread.html';
 	}
   });
