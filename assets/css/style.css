@@ -1,5 +1,7 @@
 body {
 	background-image: url('../images/background.png');
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
 }
 @font-face {
     font-family: 'minecraftmedium';
@@ -37,4 +39,8 @@ body {
 .media-image {
 	height: 25px;
 	width: 25px;
+}
+img {
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
 }
