@@ -1,5 +1,5 @@
 .style-is-cool {
-    background-image:url('https://duckdungeon.tk/assets/images/forground.png');
+    background-image:url('https://duckdevs.me/assets/images/forground.png');
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -11,8 +11,8 @@
 }
 @font-face {
     font-family: 'minecraftmedium';
-    src: url('https://duckdungeon.tk/assets/font/minecraft-webfont.woff2') format('woff2'),
-         url('https://duckdungeon.tk/assets/font/minecraft-webfont.woff') format('woff');
+    src: url('https://duckdevs.me/assets/font/minecraft-webfont.woff2') format('woff2'),
+         url('https://duckdevs.me/assets/font/minecraft-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 	font-display: swap;

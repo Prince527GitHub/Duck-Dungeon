@@ -12,7 +12,7 @@ if (localStorage.ddrwinner) {
 		document.getElementById("result").innerHTML = "Now you can continue to play or exit.";
 	}
 } else {
-	document.location.href = 'http://duckdungeon.tk/index.html';
+	document.location.href = 'https://duckdevs.me/index.html';
 }
 
 if (localStorage.ddrnospeedrun === "1") {

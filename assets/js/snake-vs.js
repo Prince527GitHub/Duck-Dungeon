@@ -81,7 +81,7 @@ function loop() {
 		} else {
 			document.getElementById("win").innerHTML = "You unlocked a secret!";
 			document.getElementById("textdoc").innerHTML = "Now it's time for a secret seconds!";
-			document.location.href = 'http://duckdungeon.tk/home/images/beta.html';
+			document.location.href = 'https://duckdevs.me/home/images/beta.html';
 		}
 		if (sessionStorage.ddrloseagain) {
 			sessionStorage.ddrloseagain = Number(sessionStorage.ddrloseagain) + 1;
@@ -96,7 +96,7 @@ function loop() {
 		} else {
 			localStorage.ddrwinner = 1;
 		}
-		document.location.href = 'http://duckdungeon.tk/bread.html';
+		document.location.href = 'https://duckdevs.me/bread.html';
 	}
   });
 }
