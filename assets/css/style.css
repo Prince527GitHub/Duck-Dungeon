@@ -44,3 +44,21 @@ img {
 	image-rendering: pixelated;
 	image-rendering: -moz-crisp-edges;
 }
+.download-button {
+    padding-top: 15px;
+}
+.download-button:hover {
+    color: #251F1F;
+    cursor: pointer;
+}
+.style-is-cool {
+    background-image:url('https://duckdungeon.tk/assets/images/forground.png');
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 34px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+}
