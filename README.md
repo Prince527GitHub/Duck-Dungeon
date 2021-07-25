@@ -1,2 +1,2 @@
-# Duck Dungeon Reboot (DDR)
-Duck Dungeon Reboot, or DDR for short, is a game where you play as a duck. An evil goose has stolen your bread, and you must bring it back. You will face many obstacles in your quest to bring back the holy bread.
+# Duck Dungeon Reboot [Luncher]
+This is where the launcher get's it's files. Like the background and the version number.
