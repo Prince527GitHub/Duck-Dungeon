@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^duckdevs.me [NC] 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
