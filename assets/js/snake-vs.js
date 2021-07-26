@@ -81,7 +81,7 @@ function loop() {
 		} else {
 			document.getElementById("win").innerHTML = "You unlocked a secret!";
 			document.getElementById("textdoc").innerHTML = "Now it's time for a secret seconds!";
-			document.location.href = 'https://ddr.netlify.app/redirect.html';
+			document.location.href = 'https://luncher.duckdevs.me/redirect.html';
 		}
 		if (sessionStorage.ddrloseagain) {
 			sessionStorage.ddrloseagain = Number(sessionStorage.ddrloseagain) + 1;
