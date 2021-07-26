@@ -1,0 +1,24 @@
+.style-is-cool {
+    background-image:url('https://mobile.duckdevs.me/assets/images/forground.png');
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 34px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+}
+@font-face {
+    font-family: 'minecraftmedium';
+    src: url('https://mobile.duckdevs.me/assets/font/minecraft-webfont.woff2') format('woff2'),
+         url('https://mobile.duckdevs.me/assets/font/minecraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	font-display: swap;
+}
+body {
+	background-image: url('https://mobile.duckdevs.me/assets/images/background.png');
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+}

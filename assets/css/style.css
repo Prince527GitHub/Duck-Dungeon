@@ -1,0 +1,61 @@
+body {
+	background-image: url('../images/background.png');
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+}
+@font-face {
+    font-family: 'minecraftmedium';
+    src: url('../font/minecraft-webfont.woff2') format('woff2'),
+         url('../font/minecraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	font-display: swap;
+}
+* {
+	box-sizing: border-box;
+	font-family: 'minecraftmedium';
+	text-align: center;
+	color: black;
+}
+.btn {
+    background-color: #75a743;
+    color: black;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    border: 2px solid #468232;
+    border-radius: 8px;
+    font-family: 'minecraftmedium';
+}
+.buttons {
+    text-align: center;
+}
+.btn:hover {
+    background-color: #a8ca58;
+	cursor: pointer;
+}
+#game{
+	border:1px solid #a8ca58;
+}
+.media-image {
+	height: 50px;
+	width: 50px;
+}
+.credit-image {
+	height: 25px;
+	width: 25px;
+}
+img {
+	image-rendering: pixelated;
+	image-rendering: -moz-crisp-edges;
+}
+.style-is-cool {
+    background-image:url('../images/forground.png');
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 34px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+}
