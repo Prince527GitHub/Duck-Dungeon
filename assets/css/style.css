@@ -63,3 +63,6 @@ img {
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
 }
+::-webkit-scrollbar {
+	width: 0;
+}
