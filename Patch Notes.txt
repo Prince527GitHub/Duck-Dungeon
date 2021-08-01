@@ -1,1 +1,7 @@
-The launcher was released!
+- New cursor texture
+- New bullet texture
+- Class system, different classes have different boosts to certain stats:
+1. Default class, has no boosts to any stats
+2. Knight, has a 40% boost to health but a 10% decrease in speed
+3. Ninja, has a 20% boost to speed and a 30% boost to stamina, but has 20% less health
+4. Healer, has a 20% boost to health but with a 20% reduction to stamina
