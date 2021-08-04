@@ -66,3 +66,10 @@ img {
 ::-webkit-scrollbar {
 	width: 0;
 }
+.link-h6 {
+	margin-top: 10px;
+}
+.link-h6:hover {
+    color: #3A2E2E;
+    cursor: pointer;
+}
