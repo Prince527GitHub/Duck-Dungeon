@@ -13,4 +13,4 @@
                                                                       \▓▓▓▓▓▓                            
 ```
 
-This is where the laucher will get the files it needs to auto-update.
+This is where the laucher will get the files it needs to auto-update, oh ya this is also a [site](https://launcher.duckdevs.me/).
