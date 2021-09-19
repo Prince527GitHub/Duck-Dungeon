@@ -33,4 +33,4 @@ You can download the laucher or the android version at [duckdevs.me](https://duc
 
 ### Social Media
 
-<iframe src="https://discord.com/widget?id=867858864220667944&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+ [![discord](https://discordapp.com/api/guilds/867858864220667944/widget.png?style=banner2)](https://discord.com/invite/95TANe26Km)
