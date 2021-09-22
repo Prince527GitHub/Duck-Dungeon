@@ -29,7 +29,7 @@ You can download the laucher or the android version at [duckdevs.me](https://duc
 
 <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://api.berk404.ga/circle?image=https://api.prince527gaming.repl.co/avatar?user=364105797162237952" alt="credit-Prince527"></img> **Prince527** `Web Design` `Game Design`
 
-<h5>Special Thanks to <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://api.berk404.ga/circle?image=https://api.prince527gaming.repl.co/avatar?user=835281854269227029" alt="credit-CastNormal">, <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://api.berk404.ga/circle?image=https://api.prince527gaming.repl.co/avatar?user=424269868209143808">, <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://api.berk404.ga/circle?image=https://api.prince527gaming.repl.co/avatar?user=757770685874700288" alt="credit-Cr1ms0n"> and all those who were there during this process <3</h5>
+<h5>Special Thanks to <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://github.com/Prince527GitHub/Duck-Dungeon/blob/web/assets/images/castnormal.png?raw=true" alt="credit-CastNormal">, <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://api.berk404.ga/circle?image=https://api.prince527gaming.repl.co/avatar?user=424269868209143808">, <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://api.berk404.ga/circle?image=https://api.prince527gaming.repl.co/avatar?user=757770685874700288" alt="credit-Cr1ms0n"> and all those who were there during this process <3</h5>
 
 ### Social Media
 
