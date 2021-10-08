@@ -29,7 +29,7 @@ You can download the laucher or the android version at [duckdevs.me](https://duc
 
 <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://github.com/Prince527GitHub/Duck-Dungeon/blob/web/assets/images/prince.gif?raw=true" alt="credit-Prince527"></img> **Prince527** `Web Design` `Game Design`
 
-<h5>Special Thanks to <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://github.com/Prince527GitHub/Duck-Dungeon/blob/web/assets/images/castnormal.png?raw=true" alt="credit-CastNormal">, <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://github.com/Prince527GitHub/Duck-Dungeon/blob/web/assets/images/wam.png">, <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://github.com/Prince527GitHub/Duck-Dungeon/blob/web/assets/images/cr1ms0n.png?raw=true" alt="credit-Cr1ms0n"> and all those who were there during this process <3</h5>
+<h5>Special Thanks to <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://github.com/Prince527GitHub/Duck-Dungeon/blob/web/assets/images/castnormal.png?raw=true" alt="credit-CastNormal">, <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://github.com/Prince527GitHub/Duck-Dungeon/blob/web/assets/images/wam.png">, <img style="image-rendering: auto;	height: 25px; width: 25px;" src="https://github.com/Prince527GitHub/Duck-Dungeon/blob/web/assets/images/cr1ms0n.png?raw=true" alt="credit-Cr1ms0n">, Via and all those who were there during this process <3</h5>
  
 ### Social Media
 
